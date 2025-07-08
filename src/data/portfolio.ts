@@ -1,15 +1,15 @@
 import { PersonalInfo, Project, Skill, Experience, Education } from "@/types";
 
 export const personalInfo: PersonalInfo = {
-  name: "Tu Nombre",
+  name: "Alex Vargas",
   title: "Estudiante de Ingeniería de Sistemas",
   description: "Apasionado por la tecnología y el desarrollo de software. Especializado en desarrollo web full-stack con experiencia en React, Node.js y bases de datos. Siempre buscando nuevos desafíos y oportunidades para crecer profesionalmente.",
   image: "/profile-placeholder.jpg",
   resume: "/resume.pdf",
   contact: {
-    email: "tu.email@ejemplo.com",
+    email: "alexjhunior0522@gmail.com",
     phone: "+57 300 123 4567",
-    location: "Bogotá, Colombia",
+    location: "Chimbote, Peru",
     social: {
       github: "https://github.com/tuusuario",
       linkedin: "https://linkedin.com/in/tuusuario",
@@ -146,7 +146,7 @@ export const education: Education[] = [
   {
     id: "1",
     degree: "Ingeniería de Sistemas",
-    institution: "Universidad Nacional de Colombia",
+    institution: "Universidad Tecnológica del Perú",
     period: "2021 - 2025",
     description: "Enfoque en desarrollo de software, bases de datos y arquitectura de sistemas. Participación activa en proyectos de investigación y desarrollo.",
     gpa: "4.2/5.0"
@@ -154,7 +154,7 @@ export const education: Education[] = [
   {
     id: "2",
     degree: "Técnico en Programación",
-    institution: "SENA",
+    institution: "Udemy",
     period: "2020 - 2021",
     description: "Formación técnica en programación con énfasis en desarrollo web y bases de datos.",
     gpa: "4.5/5.0"
